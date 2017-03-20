@@ -1,0 +1,294 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet"> );
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+}
+
+			/* Header */
+
+.delivery {
+	float: left;
+	text-overflow: clip;
+	display: border;
+	padding-left: 9%;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.delivery a {
+	margin-right: 5px;
+	color: #b3b3b3;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+}
+
+.currency {
+	float: right;
+	display: border;
+	padding-right: 10.5%;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+.currency img {
+	width: 16px;
+	height: 16px;
+	padding-left: 4px;
+	margin-bottom: -3px;
+}
+
+.currency a {
+	margin-left: 5px;
+	color: #b3b3b3;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+}
+
+.currency .vertical {
+	color: #f1f1f1;
+	padding: 0 0 0 0;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	border-color: #f1f1f1;
+	color: #f1f1f1;
+	background-color: #f1f1f1;
+	border: none;
+}
+
+.logo {
+	float: left;
+	position: absolute;
+	font-size: 1.6em;
+	padding-left: 9%;
+	font-family: 'Lato', serif;
+	margin-top: -45px;
+}
+
+.logo > .logo_text {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+}
+
+.head_menu {
+	margin-top: 40px;
+	padding-bottom: 25px; 
+}
+
+.head_menu .navigation a {
+	color: #b3b3b3;
+	font-size: 0.8em;
+	font-family: 'Lato', serif;
+	margin-right: 45px;
+}
+
+.head_menu .navigation #blue {
+	color: black;
+	padding-bottom: 4px;
+	border-bottom: 3px solid blue;
+}
+
+.head_menu .navigation #red {
+	color: red;
+}
+
+.menu_head {
+	float: right;
+	margin-top: -45px;
+	margin-right: 10.5%;
+	padding-bottom: 15px;
+	margin-left: 15px;
+}
+
+.menu_head a {
+	color: #b3b3b3;
+	font-size: 0.8em;
+	font-family: 'Lato', serif;
+	margin-left: 15px;
+}
+
+.menu_head > #cart {
+	border: 2px solid blue;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+}
+
+.menu_head > #cart > .bag {
+	padding: 20px 20px 20px 20px;
+}
+
+.menu_head .search img {
+	float: right;
+
+	width: 23px;
+	height: 23px;
+}
+
+				/* Content menu */
+
+.caption {
+	font-family: 'Playfair Display', serif;
+	font-size: 3em;
+	padding-top: 30px;
+}
+
+					/* Menu */
+
+.menu a {
+	color: #b3b3b3;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	margin-right: 40px;
+}
+
+.menu #blue {
+	color: black;
+	padding-bottom: 4px;
+	border-bottom: 3px solid blue;
+}
+
+#content {
+	float: left;
+	display: block;
+	padding-left: 7%;
+	height: auto;
+}
+
+#foto {
+	float: left;
+	width: 250px;
+	height: 310px;
+	display: block;
+	margin-left: 30px;
+	padding-top: 50px;
+}
+
+#content > #foto > a > .new {
+	color: white;
+	float: left;
+	position: absolute;
+	display: block;
+	border: 1px solid blue;
+	padding: 4px 13px 4px 13px;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	border-radius: 30px;
+	background-color: blue;
+}
+
+#content > #foto > a > img {
+	width: 250px;
+	height: 270px;
+	position: relative;
+	float: left;
+	margin-bottom: 22px;
+}
+
+#content > #foto > #text {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+	color: black;
+	padding-right: 5px;
+}
+
+#content  #foto  #price {
+	color: #b3b3b3;
+	margin-left: 5px;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+#content  #foto  #price  #price_sale {
+	text-decoration: line-through;
+	padding-right: 5px;
+}
+
+#content  #foto  #price  #red_text {
+	color: red;
+	padding-left: 5px;
+}
+
+#next {
+	display: block;
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 0.9em;
+	color: #b3b3b3;
+	padding-right: 5px;
+}
+
+#fon {
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/fon.jpg);
+}
+
+#subscribe {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	color: black;
+}
+
+#news {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5em;
+	color: white;
+}
+
+#add_email {
+	background-color: transparent;
+	color: white;
+	width: 250px;
+	height: 35px;
+	padding-top: 11px;
+	padding-left: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	border-radius: 30px;
+	border-color: white;
+	border: 2px solid white;
+	::-webkit-input-placeholder {color:white;}
+	::-moz-placeholder          {color:white;}
+	::-moz-placeholder           {color:white;}
+	::-ms-input-placeholder      {color:white;}
+}
+
+.foot {
+	margin-top: 20px;
+}
+
+.foot .logo {
+	display: block;
+	margin-top: -35px;
+	font-family: 'Lato', serif;
+	margin-left: ;
+}
+
+.foot .logo .logo_text {
+	color: black;
+	font-family: 'Playfair Display', serif;
+	font-size: 2.5em;
+}
+
+.foot .navigation a {
+	color: #b3b3b3;
+	font-size: 0.8em;
+	font-family: 'Lato', serif;
+	padding-right: 20px;
+}
+
+.foot .rights a {
+	float: right;
+	margin-right: 11%;
+	color: #b3b3b3;
+	margin-top: -17px;
+}
